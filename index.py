@@ -14,7 +14,7 @@ def read_file():
     else:
         with open('db_tracks.json', 'w') as db:
             json.dump([], db)
-            return json.load(db)
+            return []
 
 
 def write_file(data):
